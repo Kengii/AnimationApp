@@ -164,7 +164,7 @@
             </objects>
             <point key="canvasLocation" x="655.07246376811599" y="67.633928571428569"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="u6Q-01-MOx">
             <objects>
                 <tableViewController id="Zxc-4L-O6L" customClass="TableViewController" customModule="AnimationApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -196,7 +196,7 @@
                             <outlet property="delegate" destination="Zxc-4L-O6L" id="pRv-ck-64g"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="zcx-sd-Re3"/>
+                    <navigationItem key="navigationItem" id="zcx-sd-Re3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uw0-RL-zaz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

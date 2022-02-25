@@ -10,8 +10,6 @@ import SideMenu
 
 class TableViewController: UITableViewController {
 
-    var array: [String] = []
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -19,8 +17,6 @@ class TableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
-        print(array)
-
     }
 
     // MARK: - Table view data source
@@ -32,12 +28,13 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return array.count
+        return Array.shared.array.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = array[indexPath.row]
+        let array = Array.shared.array[indexPath.row]
+        cell.textLabel?.text = array
 
         return cell
     }

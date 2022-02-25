@@ -63,8 +63,9 @@ final class ViewController: UIViewController {
         guard let textForce = lableForce.text else { return }
         guard let textDelay = labelDelay.text else { return }
         guard let textDuration = labelDuration.text else { return }
-        let array = ["\(textForce)", "\(textDelay)", "\(textDuration)"]
-        print(array)
+        Array.shared.array.append(textForce)
+        Array.shared.array.append(textDelay)
+        Array.shared.array.append(textDuration)
     }
 
     private func setupUI() {
@@ -79,15 +80,5 @@ final class ViewController: UIViewController {
         sliderDelay.value = 0
         sliderDelay.minimumValue = 0
         sliderDelay.maximumValue = 3
-    }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showSide" {
-            guard let destination = segue.destination as? TableViewController else { return }
-            guard let textForce = lableForce.text else { return }
-            guard let textDelay = labelDelay.text else { return }
-            guard let textDuration = labelDuration.text else { return }
-            destination.array = ["\(textForce)", "\(textDelay)", "\(textDuration)"]
-        }
     }
 }

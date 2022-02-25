@@ -17,6 +17,7 @@
 		7F092AF927C655B5001D07C5 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 7F092AF827C655B5001D07C5 /* SideMenu */; };
 		7F092AFF27C657E1001D07C5 /* AnimatonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F092AFE27C657E1001D07C5 /* AnimatonModel.swift */; };
 		7F092B0127C676B9001D07C5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F092B0027C676B9001D07C5 /* TableViewController.swift */; };
+		7F94AB9527C8E4DF003C8ED8 /* Singltone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94AB9427C8E4DF003C8ED8 /* Singltone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7F092AF127C65395001D07C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F092AFE27C657E1001D07C5 /* AnimatonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatonModel.swift; sourceTree = "<group>"; };
 		7F092B0027C676B9001D07C5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7F94AB9427C8E4DF003C8ED8 /* Singltone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singltone.swift; sourceTree = "<group>"; };
 		7FC922501CCC77C2BDD0A1B0 /* Pods-AnimationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A4CD6DA529FFA2D56BDE2888 /* Pods_AnimationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB155D0C9663EC74DBCEDAD1 /* Pods-AnimationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.release.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				7F092AFE27C657E1001D07C5 /* AnimatonModel.swift */,
+				7F94AB9427C8E4DF003C8ED8 /* Singltone.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				7F092AE827C65394001D07C5 /* ViewController.swift in Sources */,
 				7F092AE427C65394001D07C5 /* AppDelegate.swift in Sources */,
 				7F092AFF27C657E1001D07C5 /* AnimatonModel.swift in Sources */,
+				7F94AB9527C8E4DF003C8ED8 /* Singltone.swift in Sources */,
 				7F092B0127C676B9001D07C5 /* TableViewController.swift in Sources */,
 				7F092AE627C65394001D07C5 /* SceneDelegate.swift in Sources */,
 			);
